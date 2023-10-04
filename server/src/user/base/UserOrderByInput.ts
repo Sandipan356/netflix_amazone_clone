@@ -39,7 +39,7 @@ class UserOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
-  firstName?: SortOrder;
+  id?: SortOrder;
 
   @ApiProperty({
     required: false,
@@ -50,7 +50,7 @@ class UserOrderByInput {
   @Field(() => SortOrder, {
     nullable: true,
   })
-  id?: SortOrder;
+  isAdmin?: SortOrder;
 
   @ApiProperty({
     required: false,
